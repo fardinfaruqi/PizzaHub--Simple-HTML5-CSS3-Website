@@ -25,6 +25,7 @@
   letter-spacing: 0%;
   text-align: center;
   border: none;
+  margin: 10px 0px;
 }
 
 #hero {
@@ -82,8 +83,6 @@
   background: rgb(255, 255, 255);
   text-align: center;
 }
-
-#card-box .container {}
 
 #card-box .container .subtitle {
   opacity: 0.6;
@@ -146,4 +145,67 @@
   line-height: 20px;
   letter-spacing: 0%;
   margin: 10px 0px;
+}
+
+footer .foot-div {
+  height: 100vh;
+  background-image: url("../assets/social-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0% 15%;
+}
+
+footer .foot-div .title {
+  color: rgb(16, 16, 16);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  margin: 10px 0px;
+}
+
+footer .foot-div .subtitle {
+  opacity: 0.6;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 10px 0px;
+}
+
+footer .foot-div .subtitle-2 {
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+  padding: 20px 5px;
+  margin: 30px 0px;
+  color: rgb(16, 16, 16);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+}
+
+footer .foot-div .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+}
+
+footer .foot-div .socials .icon {
+  height: 40px;
+  width: 40px;
 }
